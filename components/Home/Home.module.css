@@ -1,0 +1,24 @@
+.Home_parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Home {
+    width: calc(100vw - 260px);
+    height: 95vh;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.Home_title {
+    font-weight: bold;
+    padding: 20px;
+    font-size: 2em;
+}

@@ -1,5 +1,7 @@
-import HomePage from "./HomePage/HomePage";
+import SideBar from "./SideBar/SideBar"
+import Home from "./Home/Home"
 
 export {
-    HomePage,
+    SideBar,
+    Home,
 }

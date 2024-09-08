@@ -1,0 +1,5 @@
+.index {
+    display: flex; /* Sets the layout to flex */
+    height: 100vh; /* Full viewport height */
+    align-items: stretch; /* Align items in a way that they take up the full container height */
+}

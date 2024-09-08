@@ -3,13 +3,15 @@ import React from 'react';
 // INTERNAL IMPORT
 import Style from '../styles/index.module.css';
 import {
-    HomePage,
+  SideBar,
+  Home,
 } from '../components/componentsindex';
 
 const index = () => {
   return (
     <div className={Style.index}>
-        <HomePage />
+        <SideBar />
+        <Home />
     </div>
   )
 };

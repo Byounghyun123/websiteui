@@ -1,0 +1,82 @@
+.SideBar_parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.SideBar {
+    width: 200px;
+    height: 95vh;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.SideBar_logo {
+    padding-bottom: 20px;
+}
+
+.SideBar_line {
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.SideBar_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 10px;
+    color: #333;
+    border-radius: 10px;
+    transition: all .7s;
+    font-weight: bold;
+}
+
+.SideBar_item:hover {
+    background-color: #9333EA;
+    color: #fff;
+    cursor: pointer;
+}
+
+.SideBar_item_icon {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.SideBar_profile {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    margin-top: auto;
+}
+
+.SideBar_profile_img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.SideBar_profile_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.SideBar_profile_info_name {
+    font-weight: bold;
+}
+
+.SideBar_profile_info_email {
+    font-size: 0.8em; /* Smaller font size for the email */
+    color: #666;
+}
